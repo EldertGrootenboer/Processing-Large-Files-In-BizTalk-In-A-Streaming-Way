@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.Samples.ProcessLargeMessage.Schemas", "Eldert.Samples.ProcessLargeMessage.Schemas\Eldert.Samples.ProcessLargeMessage.Schemas.btproj", "{29E1BB48-84DD-4B37-BCF5-9F2737D867E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.Samples.ProcessLargeMessage.Pipelines", "Eldert.Samples.ProcessLargeMessage.Pipelines\Eldert.Samples.ProcessLargeMessage.Pipelines.btproj", "{DFE2B277-E975-4F47-9422-82DA48D809E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3842B460-2A86-454E-A18D-2CDD76B4B219}"
+	ProjectSection(SolutionItems) = preProject
+		Eldert.Samples.ProcessLargeMessage.Deployment\BuildDebugMsi.bat = Eldert.Samples.ProcessLargeMessage.Deployment\BuildDebugMsi.bat
+		Eldert.Samples.ProcessLargeMessage.Deployment\BuildReleaseMsi.bat = Eldert.Samples.ProcessLargeMessage.Deployment\BuildReleaseMsi.bat
+		Eldert.Samples.ProcessLargeMessage.Deployment\Eldert.Samples.ProcessLargeMessage.Deployment.btdfproj = Eldert.Samples.ProcessLargeMessage.Deployment\Eldert.Samples.ProcessLargeMessage.Deployment.btdfproj
+		Eldert.Samples.ProcessLargeMessage.snk = Eldert.Samples.ProcessLargeMessage.snk
+		Eldert.Samples.ProcessLargeMessage.Deployment\InstallWizard.xml = Eldert.Samples.ProcessLargeMessage.Deployment\InstallWizard.xml
+		Eldert.Samples.ProcessLargeMessage.Deployment\PortBindingsMaster.xml = Eldert.Samples.ProcessLargeMessage.Deployment\PortBindingsMaster.xml
+		Eldert.Samples.ProcessLargeMessage.Deployment\UnInstallWizard.xml = Eldert.Samples.ProcessLargeMessage.Deployment\UnInstallWizard.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{B57D799F-FE3D-45DB-B31A-71130841EC27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Policies", "Policies", "{7469A76C-5980-4963-8458-2B04464F7E45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample Messages", "Sample Messages", "{A9F6B0E9-2B16-48E0-A9F7-C2761725E201}"
+	ProjectSection(SolutionItems) = preProject
+		Eldert.Samples.ProcessLargeMessage.SampleMessages\InvoiceInformation.xml = Eldert.Samples.ProcessLargeMessage.SampleMessages\InvoiceInformation.xml
+		Eldert.Samples.ProcessLargeMessage.SampleMessages\InvoiceSample.pdf = Eldert.Samples.ProcessLargeMessage.SampleMessages\InvoiceSample.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.Samples.ProcessLargeMessage.ReceiveLargeMessage", "Eldert.Samples.ProcessLargeMessage.ReceiveLargeMessage\Eldert.Samples.ProcessLargeMessage.ReceiveLargeMessage.csproj", "{D6B5EE5E-AE78-43C3-894B-68008D807D69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eldert.Samples.ProcessLargeMessage.SendLargeMessage", "Eldert.Samples.ProcessLargeMessage.SendLargeMessage\Eldert.Samples.ProcessLargeMessage.SendLargeMessage.csproj", "{6ED048FA-8860-4BA9-9C0B-243D99600C55}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29E1BB48-84DD-4B37-BCF5-9F2737D867E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29E1BB48-84DD-4B37-BCF5-9F2737D867E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29E1BB48-84DD-4B37-BCF5-9F2737D867E9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{29E1BB48-84DD-4B37-BCF5-9F2737D867E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29E1BB48-84DD-4B37-BCF5-9F2737D867E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29E1BB48-84DD-4B37-BCF5-9F2737D867E9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DFE2B277-E975-4F47-9422-82DA48D809E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE2B277-E975-4F47-9422-82DA48D809E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE2B277-E975-4F47-9422-82DA48D809E3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DFE2B277-E975-4F47-9422-82DA48D809E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE2B277-E975-4F47-9422-82DA48D809E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE2B277-E975-4F47-9422-82DA48D809E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D6B5EE5E-AE78-43C3-894B-68008D807D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B5EE5E-AE78-43C3-894B-68008D807D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B5EE5E-AE78-43C3-894B-68008D807D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B5EE5E-AE78-43C3-894B-68008D807D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED048FA-8860-4BA9-9C0B-243D99600C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED048FA-8860-4BA9-9C0B-243D99600C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED048FA-8860-4BA9-9C0B-243D99600C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED048FA-8860-4BA9-9C0B-243D99600C55}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		BizTalkNamespace = Eldert.Samples.ProcessLargeMessage
+	EndGlobalSection
+EndGlobal
